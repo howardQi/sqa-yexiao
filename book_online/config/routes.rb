@@ -1,5 +1,6 @@
 BookOnline::Application.routes.draw do
-  get "home/index"
+
+  get "about", :to=> "home#about"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
